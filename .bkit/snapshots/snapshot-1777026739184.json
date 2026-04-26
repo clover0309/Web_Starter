@@ -1,0 +1,547 @@
+{
+  "timestamp": "2026-04-24T10:32:19.184Z",
+  "reason": "compaction",
+  "status": {
+    "version": "2.0",
+    "lastUpdated": "2026-04-24T08:30:45.387Z",
+    "activeFeatures": [
+      "frontend",
+      "scheduler",
+      "repository",
+      "service",
+      "controller",
+      "config",
+      "scripts",
+      "Web_Starter",
+      "bootstrap"
+    ],
+    "primaryFeature": "frontend",
+    "features": {
+      "ai-news-v2": {
+        "phase": "archived",
+        "matchRate": 96,
+        "iterationCount": 0,
+        "startedAt": "2026-03-27T15:00:00.000Z",
+        "archivedAt": "2026-03-27T16:00:00.000Z",
+        "archivedTo": "docs/archive/2026-03/ai-news-v2/"
+      },
+      "frontend": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-27T07:29:47.986Z",
+          "lastUpdated": "2026-03-27T23:33:55.958Z"
+        },
+        "lastFile": "C:\\my_study\\AI_News\\frontend\\vite.config.js"
+      },
+      "scheduler": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-27T07:37:48.973Z",
+          "lastUpdated": "2026-03-27T07:37:48.973Z"
+        },
+        "lastFile": "C:\\my_study\\AI_News\\backend\\src\\main\\java\\com\\ainews\\scheduler\\FeedCollectorScheduler.java"
+      },
+      "repository": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-27T08:24:26.929Z",
+          "lastUpdated": "2026-03-27T08:24:26.929Z"
+        },
+        "lastFile": "C:\\my_study\\AI_News\\backend\\src\\main\\java\\com\\ainews\\repository\\ArticleRepository.java"
+      },
+      "service": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-27T08:24:39.567Z",
+          "lastUpdated": "2026-03-27T08:24:39.567Z"
+        },
+        "lastFile": "C:\\my_study\\AI_News\\backend\\src\\main\\java\\com\\ainews\\service\\FeedCollectorService.java"
+      },
+      "controller": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-27T08:24:55.119Z",
+          "lastUpdated": "2026-03-27T08:24:55.119Z"
+        },
+        "lastFile": "C:\\my_study\\AI_News\\backend\\src\\main\\java\\com\\ainews\\controller\\ArticleController.java"
+      },
+      "config": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-27T09:59:17.095Z",
+          "lastUpdated": "2026-03-27T09:59:17.095Z"
+        },
+        "lastFile": "C:\\my_study\\AI_News\\backend\\src\\main\\java\\com\\ainews\\config\\AdminApiKeyFilter.java"
+      },
+      "scripts": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-04-15T00:42:41.633Z",
+          "lastUpdated": "2026-04-15T00:42:41.633Z"
+        },
+        "lastFile": "C:\\Dev\\my_study\\AI_News\\new-docker\\scripts\\init-ssl.sh"
+      },
+      "Web_Starter": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-04-24T06:42:31.427Z",
+          "lastUpdated": "2026-04-24T08:30:45.387Z"
+        },
+        "lastFile": "C:\\Dev\\C#\\WinForm\\WebStarter\\Web_Starter\\Web_Starter\\DatabaseChecker.cs"
+      },
+      "bootstrap": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-04-24T08:20:06.940Z",
+          "lastUpdated": "2026-04-24T08:20:46.959Z"
+        },
+        "lastFile": "C:\\Dev\\FarmOS\\bootstrap\\shoppingmall_seed.py"
+      }
+    },
+    "pipeline": {
+      "currentPhase": 1,
+      "level": "Dynamic",
+      "phaseHistory": []
+    },
+    "session": {
+      "startedAt": "2026-03-27T06:35:00.000Z",
+      "onboardingCompleted": true,
+      "lastActivity": "2026-04-24T08:30:45.387Z"
+    },
+    "history": [
+      {
+        "timestamp": "2026-03-27T04:30:00.000Z",
+        "feature": "ai-news-platform",
+        "phase": "plan",
+        "action": "team_session_started"
+      },
+      {
+        "timestamp": "2026-03-27T08:00:00.000Z",
+        "feature": "ai-news-platform",
+        "phase": "archived",
+        "action": "documents_archived",
+        "archivedTo": "docs/archive/2026-03/ai-news-platform/"
+      },
+      {
+        "timestamp": "2026-03-27T15:00:00.000Z",
+        "feature": "ai-news-v2",
+        "phase": "plan",
+        "action": "plan_completed"
+      },
+      {
+        "timestamp": "2026-03-27T15:30:00.000Z",
+        "feature": "ai-news-v2",
+        "phase": "check",
+        "action": "gap_analysis_completed",
+        "matchRate": 96
+      },
+      {
+        "timestamp": "2026-03-27T15:45:00.000Z",
+        "feature": "ai-news-v2",
+        "phase": "completed",
+        "action": "report_generated",
+        "matchRate": 96
+      },
+      {
+        "timestamp": "2026-03-27T16:00:00.000Z",
+        "feature": "ai-news-v2",
+        "phase": "archived",
+        "action": "documents_archived",
+        "archivedTo": "docs/archive/2026-03/ai-news-v2/"
+      },
+      {
+        "timestamp": "2026-03-27T07:29:47.986Z",
+        "feature": "frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-27T07:37:48.973Z",
+        "feature": "scheduler",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-27T08:24:26.929Z",
+        "feature": "repository",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-27T08:24:39.567Z",
+        "feature": "service",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-27T08:24:55.119Z",
+        "feature": "controller",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-27T09:59:17.095Z",
+        "feature": "config",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-27T23:33:55.958Z",
+        "feature": "frontend",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-15T00:42:41.633Z",
+        "feature": "scripts",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-24T06:42:31.428Z",
+        "feature": "Web_Starter",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-24T06:43:02.970Z",
+        "feature": "Web_Starter",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-24T06:43:18.623Z",
+        "feature": "Web_Starter",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-24T06:43:25.989Z",
+        "feature": "Web_Starter",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-24T06:44:45.702Z",
+        "feature": "Web_Starter",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-24T07:12:45.125Z",
+        "feature": "Web_Starter",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-24T07:13:09.770Z",
+        "feature": "Web_Starter",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-24T07:13:22.740Z",
+        "feature": "Web_Starter",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-24T07:21:46.510Z",
+        "feature": "Web_Starter",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-24T07:22:26.359Z",
+        "feature": "Web_Starter",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-24T07:22:42.042Z",
+        "feature": "Web_Starter",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-24T07:23:09.175Z",
+        "feature": "Web_Starter",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-24T07:25:24.201Z",
+        "feature": "Web_Starter",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-24T07:25:36.612Z",
+        "feature": "Web_Starter",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-24T07:25:57.663Z",
+        "feature": "Web_Starter",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-24T07:26:11.043Z",
+        "feature": "Web_Starter",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-24T07:28:12.141Z",
+        "feature": "Web_Starter",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-24T07:28:18.531Z",
+        "feature": "Web_Starter",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-24T07:28:24.009Z",
+        "feature": "Web_Starter",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-24T07:30:14.093Z",
+        "feature": "Web_Starter",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-24T07:39:15.533Z",
+        "feature": "Web_Starter",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-24T07:39:44.702Z",
+        "feature": "Web_Starter",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-24T07:42:50.187Z",
+        "feature": "Web_Starter",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-24T07:45:26.718Z",
+        "feature": "Web_Starter",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-24T07:45:38.700Z",
+        "feature": "Web_Starter",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-24T07:45:40.592Z",
+        "feature": "Web_Starter",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-24T07:45:59.328Z",
+        "feature": "Web_Starter",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-24T07:46:00.328Z",
+        "feature": "Web_Starter",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-24T07:46:12.723Z",
+        "feature": "Web_Starter",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-24T07:46:20.102Z",
+        "feature": "Web_Starter",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-24T07:49:45.832Z",
+        "feature": "Web_Starter",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-24T07:49:52.802Z",
+        "feature": "Web_Starter",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-24T07:49:58.623Z",
+        "feature": "Web_Starter",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-24T07:50:00.226Z",
+        "feature": "Web_Starter",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-24T07:50:01.560Z",
+        "feature": "Web_Starter",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-24T07:50:03.633Z",
+        "feature": "Web_Starter",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-24T07:50:09.255Z",
+        "feature": "Web_Starter",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-24T07:50:19.882Z",
+        "feature": "Web_Starter",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-24T07:50:29.542Z",
+        "feature": "Web_Starter",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-24T08:14:24.816Z",
+        "feature": "Web_Starter",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-24T08:14:31.232Z",
+        "feature": "Web_Starter",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-24T08:20:06.940Z",
+        "feature": "bootstrap",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-24T08:20:19.800Z",
+        "feature": "bootstrap",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-24T08:20:46.959Z",
+        "feature": "bootstrap",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-24T08:23:05.493Z",
+        "feature": "Web_Starter",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-24T08:23:16.516Z",
+        "feature": "Web_Starter",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-24T08:30:17.874Z",
+        "feature": "Web_Starter",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-24T08:30:24.939Z",
+        "feature": "Web_Starter",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-24T08:30:38.419Z",
+        "feature": "Web_Starter",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-04-24T08:30:45.387Z",
+        "feature": "Web_Starter",
+        "phase": "do",
+        "action": "updated"
+      }
+    ]
+  }
+}

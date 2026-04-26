@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(/c/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/MSBuild.exe *)",
+      "Bash(grep -E \"\\\\.\\(exe|dll|config\\)$\")",
+      "Bash(where psql *)",
+      "Bash(psql --version)",
+      "Bash(\"/c/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/MSBuild.exe\" \"C:\\\\Dev\\\\C#\\\\WinForm\\\\WebStarter\\\\Web_Starter\\\\Web_Starter.slnx\" -restore -t:Build -p:Configuration=Release)",
+      "Bash(taskkill //F //IM Web_Starter.exe)",
+      "Bash(\"/c/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/MSBuild.exe\" \"C:\\\\Dev\\\\C#\\\\WinForm\\\\WebStarter\\\\Web_Starter\\\\Web_Starter.slnx\" -restore -t:Rebuild -p:Configuration=Release)",
+      "Bash(echo \"config files: $?\")"
+    ]
+  }
+}

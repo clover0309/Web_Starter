@@ -1,0 +1,14 @@
+C:\Dev\C#\WinForm\WebStarter\Web_Starter\Web_Starter\bin\Release\Web_Starter.exe.config
+C:\Dev\C#\WinForm\WebStarter\Web_Starter\Web_Starter\bin\Release\Web_Starter.exe
+C:\Dev\C#\WinForm\WebStarter\Web_Starter\Web_Starter\bin\Release\Web_Starter.pdb
+C:\Dev\C#\WinForm\WebStarter\Web_Starter\Web_Starter\obj\Release\Web_Starter.csproj.AssemblyReference.cache
+C:\Dev\C#\WinForm\WebStarter\Web_Starter\Web_Starter\obj\Release\Web_Starter.csproj.SuggestedBindingRedirects.cache
+C:\Dev\C#\WinForm\WebStarter\Web_Starter\Web_Starter\obj\Release\Web_Starter.exe.config
+C:\Dev\C#\WinForm\WebStarter\Web_Starter\Web_Starter\obj\Release\Web_Starter.Form1.resources
+C:\Dev\C#\WinForm\WebStarter\Web_Starter\Web_Starter\obj\Release\Web_Starter.Properties.Resources.resources
+C:\Dev\C#\WinForm\WebStarter\Web_Starter\Web_Starter\obj\Release\Web_Starter.csproj.GenerateResource.cache
+C:\Dev\C#\WinForm\WebStarter\Web_Starter\Web_Starter\obj\Release\Web_Starter.csproj.CoreCompileInputs.cache
+C:\Dev\C#\WinForm\WebStarter\Web_Starter\Web_Starter\obj\Release\Web_Starter.exe
+C:\Dev\C#\WinForm\WebStarter\Web_Starter\Web_Starter\obj\Release\Web_Starter.pdb
+C:\Dev\C#\WinForm\WebStarter\Web_Starter\Web_Starter\obj\Release\Web_Starter.csproj.Fody.CopyLocal.cache
+C:\Dev\C#\WinForm\WebStarter\Web_Starter\Web_Starter\obj\Release\Web_Starter.csproj.Fody.RuntimeCopyLocal.cache

@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Dev\\C#\\WinForm\\WebStarter\\Web_Starter\\Web_Starter\\Web_Starter.csproj": {}
+  },
+  "projects": {
+    "C:\\Dev\\C#\\WinForm\\WebStarter\\Web_Starter\\Web_Starter\\Web_Starter.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Dev\\C#\\WinForm\\WebStarter\\Web_Starter\\Web_Starter\\Web_Starter.csproj",
+        "projectName": "Web_Starter",
+        "projectPath": "C:\\Dev\\C#\\WinForm\\WebStarter\\Web_Starter\\Web_Starter\\Web_Starter.csproj",
+        "packagesPath": "C:\\Users\\a\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\C#\\WinForm\\WebStarter\\Web_Starter\\Web_Starter\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "UsingMicrosoftNETSdk": false,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\a\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "Costura.Fody": {
+              "target": "Package",
+              "version": "[5.7.0, )"
+            },
+            "Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.6.4, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[4.1.13, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

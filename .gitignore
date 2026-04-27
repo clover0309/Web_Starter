@@ -1,0 +1,172 @@
+# =====================================================================
+# .gitignore for C# / .NET Framework 4.7.2 WinForms project
+# Project: Web_Starter (Npgsql + Costura.Fody)
+# Based on: Microsoft VisualStudio.gitignore template
+# =====================================================================
+
+# ---------------------------------------------------------------------
+# Visual Studio user / cache files
+# ---------------------------------------------------------------------
+# .vs/ 가 commit 되면 다른 머신의 디자이너/IntelliSense 캐시가 충돌해서
+# 새로 clone 시 디자인 뷰가 안 보이는 문제가 발생함 -> 반드시 ignore
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Visual Studio backup / autosave
+*.bak
+*~
+*.swp
+
+# ---------------------------------------------------------------------
+# Build results
+# ---------------------------------------------------------------------
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Ll]og/
+[Ll]ogs/
+
+# ---------------------------------------------------------------------
+# NuGet packages
+# ---------------------------------------------------------------------
+# packages/ 는 NuGet restore 시 자동 복원되므로 commit 불필요
+packages/
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Costura.Fody 생성물
+costura/
+costura32/
+costura64/
+
+# ---------------------------------------------------------------------
+# MSBuild / Roslyn
+# ---------------------------------------------------------------------
+*.binlog
+*.tlog
+*.cache
+*.tmp_proj
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# ---------------------------------------------------------------------
+# Test / Coverage
+# ---------------------------------------------------------------------
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+coverage*.json
+coverage*.xml
+coverage*.info
+*.coverage
+*.coveragexml
+
+# ---------------------------------------------------------------------
+# Publish / ClickOnce
+# ---------------------------------------------------------------------
+publish/
+*.[Pp]ublish.xml
+*.azurePubxml
+*.pubxml
+*.publishproj
+PublishScripts/
+
+# ---------------------------------------------------------------------
+# JetBrains Rider / ReSharper
+# ---------------------------------------------------------------------
+.idea/
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# ---------------------------------------------------------------------
+# Visual Studio Code
+# ---------------------------------------------------------------------
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# ---------------------------------------------------------------------
+# OS-generated
+# ---------------------------------------------------------------------
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# ---------------------------------------------------------------------
+# 프로젝트 도구별 (bkit, claude code 로컬 설정)
+# ---------------------------------------------------------------------
+# bkit 런타임/스냅샷/상태는 로컬 환경 정보라 공유 X
+.bkit/runtime/
+.bkit/snapshots/
+.bkit/state/
+
+# Claude Code 로컬 설정 (사용자별)
+.claude/settings.local.json
+
+# ---------------------------------------------------------------------
+# 환경 변수 / 비밀
+# ---------------------------------------------------------------------
+.env
+.env.local
+.env.*.local
+*.secret
+appsettings.*.local.json
+
+# ---------------------------------------------------------------------
+# 디자이너 파일 보호 (실수로 무시되지 않도록 명시)
+# WinForms 디자인 뷰가 동작하려면 아래 파일들이 반드시 트래킹돼야 함
+# ---------------------------------------------------------------------
+!*.csproj
+!*.sln
+!*.slnx
+!*.resx
+!*.Designer.cs
+!*.settings
+!App.config
+!FodyWeavers.xml
